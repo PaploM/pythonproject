@@ -1,7 +1,5 @@
-tuple1 = (10, 20, 30, 40)
-print(tuple1)
-a,b,c,d=tuple1
-print(a)
-print(b)
-print(c)
-print(d)
+sample_set = {"Yellow", "Orange", "Black"}
+sample_list = ["Blue", "Green", "Red"]
+sample_set.update(sample_list)
+print("Modified Set: ")
+print(sample_set)
